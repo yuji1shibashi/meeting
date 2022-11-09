@@ -1,0 +1,87 @@
+/* フォント */
+html, body { font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif; }
+
+/* カーソル*/
+label { cursor: pointer; }
+
+/* 幅 */
+.w_10 { width: 10%; }
+.w_20 { width: 20%; }
+.w_30 { width: 30%; }
+.w_40 { width: 40%; }
+.w_45 { width: 45%; }
+.w_50 { width: 50%; }
+.w_60 { width: 60%; }
+.w_70 { width: 70%; }
+.w_80 { width: 80%; }
+.w_90 { width: 90%; }
+.w_100 { width: 100%; }
+
+/* 表示 */
+.d_i { display: inline;}
+.d_ib { display: inline-block;}
+.d_b { display: block;}
+
+/* float */
+.fl { float: left; }
+.fr { float: right; }
+
+/* 余白（下） */
+.mb_10 { margin-bottom: 10px; }
+
+/* 余白（左） */
+.ml_10 { margin-left: 10px; }
+.ml_20 { margin-left: 20px; }
+.ml_40 { margin-left: 40px; }
+
+/* 文字サイズ */
+.fs_11 { font-size: 11px; }
+
+/* 必須 */
+.required {
+    color: red;
+    font-size: 5px;
+    vertical-align: text-top;
+}
+
+/* ローディング */
+.loading {
+    z-index: 9999;
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color:rgba(184, 184, 184, 0.3);
+    top: 0;
+    left: 0;
+}
+
+.loading_spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+/* モーダル */
+.modal-header {
+    background-color: #ffb44f;
+}
+
+.modal-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.login_head {
+    background-color: #ff9031;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.login_area {
+    margin-top: 200px;
+}
+
+.login_box {
+    box-shadow: 6px 6px 6px 1px #839098;
+}

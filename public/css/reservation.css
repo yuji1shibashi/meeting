@@ -1,0 +1,133 @@
+.r_row {
+    border: solid #ff7725 1px;
+    width: 1799px;
+    height: 60px;
+}
+
+.r_meeting_room {
+    left: 100px;
+}
+
+.r_meeting_room_name {
+    display: inline-block;
+    width: 300px;
+    position: absolute;
+    height: 60px;
+    border: solid #ff7725 1px;
+    background-color: #252525;
+    color: #ffffff;
+    margin: -1px 0px;
+    padding: 5px 10px;
+}
+
+.r_head {
+    position: absolute;
+    width: 100px;
+}
+
+.r_time_area {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    width: 1800px;
+    margin: auto;
+}
+
+.r_row_area {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    width: 1800px;
+    margin: auto;
+    border: #ff7725 2px solid;
+}
+
+.r_time_bar {
+    display: inline-block;
+    width: 1440px;
+    position: absolute;
+    height: 60px;
+    left: 330px;
+    overflow: hidden;
+    border-right: #ff7725 1px solid;
+    background: repeating-linear-gradient(to right, #ff7725, #ff7725 1px, transparent 1px, transparent 60px);
+}
+
+.r_reservation_area {
+    position: relative;
+}
+.r_reservation {
+    display: inline-block;
+    padding: 3px 10px;
+    color: #ffffff;
+    position: absolute;
+    height: 50px;
+    top: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tooltip-inner {
+    max-width: 400px;
+    min-width: 220px;
+    padding: 0.5rem .5rem;
+    color: #fff;
+    text-align: left;
+    background-color: #000;
+    border-radius: 1.25rem;
+}
+
+.r_search_area {
+    height: 130px;
+    background-color: #ff9031;
+    margin-bottom: 60px;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.r_date_area {
+    height: 40px;
+    width: 310px;
+    margin: 0 auto;
+}
+
+.r_target_day {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0px 10px;
+}
+
+.r_change_day_btn {
+    vertical-align: top;
+    background-color: #dadada;
+    color: #000000;
+    font-weight: bold;
+}
+
+.r_add_meeting_reservation_area {
+    height: 70px;
+}
+
+.r_add_btn {
+    margin: 35px 55px 25px;
+    float: right;
+}
+
+.r_search_head {
+    margin: 0px;
+}
+
+.r_search_form {
+    width: 250px;
+    margin: 10px 30px;
+}
+
+.r_search_btn {
+    margin-bottom: 4px;
+}

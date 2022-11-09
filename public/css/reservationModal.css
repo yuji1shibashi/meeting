@@ -1,0 +1,102 @@
+.modal-dialog {
+    max-width: 700px;
+}
+
+.rm_reservation_table {
+    margin: auto;
+    width: 90%;
+}
+.rm_reservation_table tr {
+    border-bottom: #ff9031 solid 1px;
+}
+.rm_reservation_table tr:last-child {
+    border-bottom: transparent solid 1px;
+}
+.rm_reservation_table th, .rm_reservation_table td {
+    padding: 20px 5px;
+}
+.rm_reservation_table th {
+    width: 160px;
+    vertical-align: top;
+}
+
+.rm_member, .rm_repeat_day {
+    background-color: #d7ffd4;
+    padding: 5px;
+    margin: 3px 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.rm_member_area, .rm_repeat_form_area {
+    height: 57px;
+    min-height: 57px;
+    max-height: 300px;
+    resize: vertical;
+    overflow-y: auto;
+}
+
+.rm_member_delete, .rm_repeat_day_delete {
+    background-color: #e3e3e3;
+    margin: 2px;
+    padding: 0px 5px 1px;
+    border-radius: 100px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 22px;
+}
+
+.rm_color_area > input[type=radio] {
+    display: none;
+}
+
+.rm_color_area {
+    vertical-align: top;
+    width: 325px;
+}
+
+.rm_color_label {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.rm_selected_color {
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+.rm_comment {
+    height: 200px;
+    min-height: 100px;
+    max-height: 300px;
+}
+.rm_remind {
+    margin-left: 20px;
+}
+
+.rm_item {
+    margin: 0px 0px 5px 0px;
+    font-size: 15px;
+}
+
+.rm_description {
+    font-size: 11px;
+}
+
+.rm_slack_description {
+    font-size: 11px;
+    margin: 0;
+}
+
+.rm_remind_area, .rm_repeat_area {
+    margin-bottom: 15px;
+    border-bottom: #ff9031 dashed 1px;
+}
